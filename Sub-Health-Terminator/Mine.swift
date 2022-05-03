@@ -238,7 +238,7 @@ struct Mine: View {
             Settings()
 
             Spacer()
-                .frame(height: 90)
+                .frame(height: 40)
         }
     }
 }
