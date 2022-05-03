@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D4478C328215886002DDEBB /* Sub_Health_TerminatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478C228215886002DDEBB /* Sub_Health_TerminatorApp.swift */; };
+		2D4478C528215886002DDEBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478C428215886002DDEBB /* ContentView.swift */; };
+		2D4478C728215887002DDEBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4478C628215887002DDEBB /* Assets.xcassets */; };
+		2D4478CA28215887002DDEBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4478C928215887002DDEBB /* Preview Assets.xcassets */; };
+		2D4478D428215887002DDEBB /* Sub_Health_TerminatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478D328215887002DDEBB /* Sub_Health_TerminatorTests.swift */; };
+		2D4478DE28215887002DDEBB /* Sub_Health_TerminatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478DD28215887002DDEBB /* Sub_Health_TerminatorUITests.swift */; };
+		2D4478E028215887002DDEBB /* Sub_Health_TerminatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478DF28215887002DDEBB /* Sub_Health_TerminatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D4478D028215887002DDEBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4478B728215886002DDEBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4478BE28215886002DDEBB;
+			remoteInfo = "Sub-Health-Terminator";
+		};
+		2D4478DA28215887002DDEBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4478B728215886002DDEBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4478BE28215886002DDEBB;
+			remoteInfo = "Sub-Health-Terminator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D4478BF28215886002DDEBB /* Sub-Health-Terminator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sub-Health-Terminator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4478C228215886002DDEBB /* Sub_Health_TerminatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sub_Health_TerminatorApp.swift; sourceTree = "<group>"; };
+		2D4478C428215886002DDEBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D4478C628215887002DDEBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D4478C928215887002DDEBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D4478CF28215887002DDEBB /* Sub-Health-TerminatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sub-Health-TerminatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4478D328215887002DDEBB /* Sub_Health_TerminatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sub_Health_TerminatorTests.swift; sourceTree = "<group>"; };
+		2D4478D928215887002DDEBB /* Sub-Health-TerminatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sub-Health-TerminatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4478DD28215887002DDEBB /* Sub_Health_TerminatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sub_Health_TerminatorUITests.swift; sourceTree = "<group>"; };
+		2D4478DF28215887002DDEBB /* Sub_Health_TerminatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sub_Health_TerminatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D4478BC28215886002DDEBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4478CC28215887002DDEBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4478D628215887002DDEBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D4478B628215886002DDEBB = {
+			isa = PBXGroup;
+			children = (
+				2D4478C128215886002DDEBB /* Sub-Health-Terminator */,
+				2D4478D228215887002DDEBB /* Sub-Health-TerminatorTests */,
+				2D4478DC28215887002DDEBB /* Sub-Health-TerminatorUITests */,
+				2D4478C028215886002DDEBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D4478C028215886002DDEBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D4478BF28215886002DDEBB /* Sub-Health-Terminator.app */,
+				2D4478CF28215887002DDEBB /* Sub-Health-TerminatorTests.xctest */,
+				2D4478D928215887002DDEBB /* Sub-Health-TerminatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D4478C128215886002DDEBB /* Sub-Health-Terminator */ = {
+			isa = PBXGroup;
+			children = (
+				2D4478C228215886002DDEBB /* Sub_Health_TerminatorApp.swift */,
+				2D4478C428215886002DDEBB /* ContentView.swift */,
+				2D4478C628215887002DDEBB /* Assets.xcassets */,
+				2D4478C828215887002DDEBB /* Preview Content */,
+			);
+			path = "Sub-Health-Terminator";
+			sourceTree = "<group>";
+		};
+		2D4478C828215887002DDEBB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D4478C928215887002DDEBB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D4478D228215887002DDEBB /* Sub-Health-TerminatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D4478D328215887002DDEBB /* Sub_Health_TerminatorTests.swift */,
+			);
+			path = "Sub-Health-TerminatorTests";
+			sourceTree = "<group>";
+		};
+		2D4478DC28215887002DDEBB /* Sub-Health-TerminatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D4478DD28215887002DDEBB /* Sub_Health_TerminatorUITests.swift */,
+				2D4478DF28215887002DDEBB /* Sub_Health_TerminatorUITestsLaunchTests.swift */,
+			);
+			path = "Sub-Health-TerminatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D4478BE28215886002DDEBB /* Sub-Health-Terminator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4478E328215887002DDEBB /* Build configuration list for PBXNativeTarget "Sub-Health-Terminator" */;
+			buildPhases = (
+				2D4478BB28215886002DDEBB /* Sources */,
+				2D4478BC28215886002DDEBB /* Frameworks */,
+				2D4478BD28215886002DDEBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sub-Health-Terminator";
+			productName = "Sub-Health-Terminator";
+			productReference = 2D4478BF28215886002DDEBB /* Sub-Health-Terminator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D4478CE28215887002DDEBB /* Sub-Health-TerminatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4478E628215887002DDEBB /* Build configuration list for PBXNativeTarget "Sub-Health-TerminatorTests" */;
+			buildPhases = (
+				2D4478CB28215887002DDEBB /* Sources */,
+				2D4478CC28215887002DDEBB /* Frameworks */,
+				2D4478CD28215887002DDEBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D4478D128215887002DDEBB /* PBXTargetDependency */,
+			);
+			name = "Sub-Health-TerminatorTests";
+			productName = "Sub-Health-TerminatorTests";
+			productReference = 2D4478CF28215887002DDEBB /* Sub-Health-TerminatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D4478D828215887002DDEBB /* Sub-Health-TerminatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4478E928215887002DDEBB /* Build configuration list for PBXNativeTarget "Sub-Health-TerminatorUITests" */;
+			buildPhases = (
+				2D4478D528215887002DDEBB /* Sources */,
+				2D4478D628215887002DDEBB /* Frameworks */,
+				2D4478D728215887002DDEBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D4478DB28215887002DDEBB /* PBXTargetDependency */,
+			);
+			name = "Sub-Health-TerminatorUITests";
+			productName = "Sub-Health-TerminatorUITests";
+			productReference = 2D4478D928215887002DDEBB /* Sub-Health-TerminatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D4478B728215886002DDEBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					2D4478BE28215886002DDEBB = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					2D4478CE28215887002DDEBB = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 2D4478BE28215886002DDEBB;
+					};
+					2D4478D828215887002DDEBB = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 2D4478BE28215886002DDEBB;
+					};
+				};
+			};
+			buildConfigurationList = 2D4478BA28215886002DDEBB /* Build configuration list for PBXProject "Sub-Health-Terminator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D4478B628215886002DDEBB;
+			productRefGroup = 2D4478C028215886002DDEBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D4478BE28215886002DDEBB /* Sub-Health-Terminator */,
+				2D4478CE28215887002DDEBB /* Sub-Health-TerminatorTests */,
+				2D4478D828215887002DDEBB /* Sub-Health-TerminatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D4478BD28215886002DDEBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4478CA28215887002DDEBB /* Preview Assets.xcassets in Resources */,
+				2D4478C728215887002DDEBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4478CD28215887002DDEBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4478D728215887002DDEBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D4478BB28215886002DDEBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4478C528215886002DDEBB /* ContentView.swift in Sources */,
+				2D4478C328215886002DDEBB /* Sub_Health_TerminatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4478CB28215887002DDEBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4478D428215887002DDEBB /* Sub_Health_TerminatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4478D528215887002DDEBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4478E028215887002DDEBB /* Sub_Health_TerminatorUITestsLaunchTests.swift in Sources */,
+				2D4478DE28215887002DDEBB /* Sub_Health_TerminatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D4478D128215887002DDEBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4478BE28215886002DDEBB /* Sub-Health-Terminator */;
+			targetProxy = 2D4478D028215887002DDEBB /* PBXContainerItemProxy */;
+		};
+		2D4478DB28215887002DDEBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4478BE28215886002DDEBB /* Sub-Health-Terminator */;
+			targetProxy = 2D4478DA28215887002DDEBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D4478E128215887002DDEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D4478E228215887002DDEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D4478E428215887002DDEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sub-Health-Terminator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Sub-Health-Terminator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D4478E528215887002DDEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sub-Health-Terminator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Sub-Health-Terminator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D4478E728215887002DDEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Sub-Health-TerminatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sub-Health-Terminator.app/Sub-Health-Terminator";
+			};
+			name = Debug;
+		};
+		2D4478E828215887002DDEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Sub-Health-TerminatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sub-Health-Terminator.app/Sub-Health-Terminator";
+			};
+			name = Release;
+		};
+		2D4478EA28215887002DDEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Sub-Health-TerminatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sub-Health-Terminator";
+			};
+			name = Debug;
+		};
+		2D4478EB28215887002DDEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Sub-Health-TerminatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sub-Health-Terminator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D4478BA28215886002DDEBB /* Build configuration list for PBXProject "Sub-Health-Terminator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4478E128215887002DDEBB /* Debug */,
+				2D4478E228215887002DDEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4478E328215887002DDEBB /* Build configuration list for PBXNativeTarget "Sub-Health-Terminator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4478E428215887002DDEBB /* Debug */,
+				2D4478E528215887002DDEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4478E628215887002DDEBB /* Build configuration list for PBXNativeTarget "Sub-Health-TerminatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4478E728215887002DDEBB /* Debug */,
+				2D4478E828215887002DDEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4478E928215887002DDEBB /* Build configuration list for PBXNativeTarget "Sub-Health-TerminatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4478EA28215887002DDEBB /* Debug */,
+				2D4478EB28215887002DDEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D4478B728215886002DDEBB /* Project object */;
+}
