@@ -16,7 +16,7 @@
 		2D4478F2282158AB002DDEBB /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478EE282158AB002DDEBB /* Market.swift */; };
 		2D4478F3282158AB002DDEBB /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478EF282158AB002DDEBB /* Friends.swift */; };
 		2D4478F4282158AB002DDEBB /* Mental.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478F0282158AB002DDEBB /* Mental.swift */; };
-		2D4478F5282158AB002DDEBB /* Body.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478F1282158AB002DDEBB /* Body.swift */; };
+		2D4478F5282158AB002DDEBB /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478F1282158AB002DDEBB /* Material.swift */; };
 		2D4478F728215933002DDEBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478F628215933002DDEBB /* ContentView.swift */; };
 		2D4478F928215972002DDEBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4478F828215972002DDEBB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -51,7 +51,7 @@
 		2D4478EE282158AB002DDEBB /* Market.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
 		2D4478EF282158AB002DDEBB /* Friends.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
 		2D4478F0282158AB002DDEBB /* Mental.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mental.swift; sourceTree = "<group>"; };
-		2D4478F1282158AB002DDEBB /* Body.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Body.swift; sourceTree = "<group>"; };
+		2D4478F1282158AB002DDEBB /* Material.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Material.swift; sourceTree = "<group>"; };
 		2D4478F628215933002DDEBB /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D4478F828215972002DDEBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,7 +107,7 @@
 				2D4478C228215886002DDEBB /* Sub_Health_TerminatorApp.swift */,
 				2D4478F628215933002DDEBB /* ContentView.swift */,
 				2D4478F0282158AB002DDEBB /* Mental.swift */,
-				2D4478F1282158AB002DDEBB /* Body.swift */,
+				2D4478F1282158AB002DDEBB /* Material.swift */,
 				2D4478EF282158AB002DDEBB /* Friends.swift */,
 				2D4478EE282158AB002DDEBB /* Market.swift */,
 				2D4478EC28215899002DDEBB /* Mine.swift */,
@@ -276,7 +276,7 @@
 				2D4478F3282158AB002DDEBB /* Friends.swift in Sources */,
 				2D4478F728215933002DDEBB /* ContentView.swift in Sources */,
 				2D4478C328215886002DDEBB /* Sub_Health_TerminatorApp.swift in Sources */,
-				2D4478F5282158AB002DDEBB /* Body.swift in Sources */,
+				2D4478F5282158AB002DDEBB /* Material.swift in Sources */,
 				2D4478F2282158AB002DDEBB /* Market.swift in Sources */,
 				2D4478F4282158AB002DDEBB /* Mental.swift in Sources */,
 			);

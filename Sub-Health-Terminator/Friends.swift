@@ -2,7 +2,7 @@ import SwiftUI
 
 struct Friends: View {
     var body: some View{
-        Text("psychological")
+        Text("friends")
     }
 }
 
