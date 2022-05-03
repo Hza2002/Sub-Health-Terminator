@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "抽奖中心.png",
+      "filename" : "保健品.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "保健品-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "保健品-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "保健品.png",
+      "filename" : "646218CBB5C069B934AD4FFD8693A66B.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "646218CBB5C069B934AD4FFD8693A66B-1.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "646218CBB5C069B934AD4FFD8693A66B-2.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

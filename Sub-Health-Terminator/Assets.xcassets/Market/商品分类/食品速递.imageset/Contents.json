@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "食品速递.png",
+      "filename" : "食品速递-1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "食品速递-2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "食品速递.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
