@@ -1,8 +1,7 @@
 import SwiftUI
-
 struct Mental: View {
     var body: some View{
-        Text("material")
+        Text("friends")
     }
 }
 struct Mental_Previews: PreviewProvider {
@@ -10,6 +9,7 @@ struct Mental_Previews: PreviewProvider {
         Mental()
     }
 }
+
 
 
 

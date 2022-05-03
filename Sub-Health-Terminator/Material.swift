@@ -32,17 +32,16 @@ struct ccanvvs: View{
                 Label("今日还可以摄入（大卡）", systemImage: "star.circle.fill")
                     .foregroundColor(.black)
                     .font(.system(size: 15))
-                    .shadow(color: .black, radius: 1)
                 Spacer()
-                    .frame(height: 30)
+                    .frame(height: 18)
                 Text("1 3 1 6")
                     .font(.system(size: 50))
                     .foregroundColor(.white)
                     .bold()
                     .italic()
-                    .shadow(color: .black, radius: 1, x: 0, y: 2)
+                
                 Spacer()
-                    .frame(height: 15)
+                    .frame(height: 5)
             }
             
         }
@@ -53,23 +52,22 @@ struct bcanvvs: View{
         ZStack{
             Circle()
                 .fill(.teal)
-                .frame(width: 230, height: 230)
+                .frame(width: 235, height: 235)
                 .shadow(color: .teal, radius: 10)
             VStack{
                 Label("今日步数", systemImage: "star.circle.fill")
                     .foregroundColor(.black)
                     .font(.system(size: 15))
-                    .shadow(color: .black, radius: 1)
                 Spacer()
-                    .frame(height: 30)
+                    .frame(height: 18)
                 Text("12869")
                     .font(.system(size: 50))
                     .foregroundColor(.white)
                     .bold()
                     .italic()
-                    .shadow(color: .black, radius: 1, x: 0, y: 2)
+                
                 Spacer()
-                    .frame(height: 15)
+                    .frame(height: 5)
             }
             
         }
@@ -107,14 +105,14 @@ struct but: View{
     var body:some View{
         ZStack{
             Group{
-            Circle()
-                .fill(.yellow)
-                .frame(width: 55, height: 55)
-                }}
+                Circle()
+                    .fill(.yellow)
+                    .frame(width: 55, height: 55)
+            }}
         Group{
-        Image(systemName: "fork.knife")
-            .resizable()
-            .frame(width: 25, height:25)
+            Image(systemName: "fork.knife")
+                .resizable()
+                .frame(width: 25, height:25)
             .foregroundColor(.white)}
         
     }}
@@ -123,36 +121,37 @@ struct butt: View{
     var body:some View{
         ZStack{
             Group{
-            Circle()
-                .fill(.red)
-                .frame(width: 55, height: 55)
-                }}
+                Circle()
+                    .fill(.red)
+                    .frame(width: 55, height: 55)
+            }}
         Group{
-        Image(systemName: "figure.roll")
-            .resizable()
-            .frame(width: 25, height:25)
+            Image(systemName: "figure.roll")
+                .resizable()
+                .frame(width: 25, height:25)
             .foregroundColor(.white)}
         
     }}
 
-struct buttt: View{
-    var body:some View{
-        ZStack{
-            Group{
-            Circle()
-                .fill(.gray)
-                .frame(width: 55, height: 55)
-                }}
-        Group{
-        Image(systemName: "multiply")
-            .resizable()
-            .frame(width: 15, height:15)
-            .foregroundColor(.white)}
-        
-    }}
+//struct buttt: View{
+//    var body:some View{
+//        ZStack{
+//            Group{
+//                Circle()
+//                    .fill(.gray)
+//                    .frame(width: 55, height: 55)
+//            }}
+//        Group{
+//            Image(systemName: "multiply")
+//                .resizable()
+//                .frame(width: 15, height:15)
+//            .foregroundColor(.white)}
+//
+//    }}
 
 struct Material: View {
     @State var change = false;
+    @State var changen = true;
     var body: some View{
         ZStack{
             NavigationView {
@@ -176,7 +175,7 @@ struct Material: View {
                         }
                     }
             }
-
+            
             VStack{
                 Searchm()
                 Spacer()
@@ -190,15 +189,25 @@ struct Material: View {
                     ccanvvs()
                 }
                 Spacer()
-                    .frame(height: 250)
+                    .frame(height: 180)
             }
-
-            but()
-                .offset(x: 150, y: -150)
-            butt()
-                .offset(x: 150, y: -75)
-            buttt()
-                .offset(x: 150, y: 0)
+            if (changen){
+                but()
+                    .offset(x: 150, y: -80)
+                butt()
+                    .offset(x: 150, y: -5)
+            }
+            Button(action: {
+                self.changen.toggle()
+            }, label: {
+                Image(systemName: "repeat.circle.fill")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 55, height: 55)
+                    .foregroundStyle(.black)
+                   
+            })
+            .offset(x: 150, y: 70)
         }
         
     }
