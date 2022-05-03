@@ -12,11 +12,11 @@
 		2D4478D428215887002DDEBB /* Sub_Health_TerminatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478D328215887002DDEBB /* Sub_Health_TerminatorTests.swift */; };
 		2D4478DE28215887002DDEBB /* Sub_Health_TerminatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478DD28215887002DDEBB /* Sub_Health_TerminatorUITests.swift */; };
 		2D4478E028215887002DDEBB /* Sub_Health_TerminatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478DF28215887002DDEBB /* Sub_Health_TerminatorUITestsLaunchTests.swift */; };
-		2D4478ED28215899002DDEBB /* mine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478EC28215899002DDEBB /* mine.swift */; };
-		2D4478F2282158AB002DDEBB /* mall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478EE282158AB002DDEBB /* mall.swift */; };
-		2D4478F3282158AB002DDEBB /* dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478EF282158AB002DDEBB /* dynamic.swift */; };
+		2D4478ED28215899002DDEBB /* Mine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478EC28215899002DDEBB /* Mine.swift */; };
+		2D4478F2282158AB002DDEBB /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478EE282158AB002DDEBB /* Market.swift */; };
+		2D4478F3282158AB002DDEBB /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478EF282158AB002DDEBB /* Friends.swift */; };
 		2D4478F4282158AB002DDEBB /* psychological.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478F0282158AB002DDEBB /* psychological.swift */; };
-		2D4478F5282158AB002DDEBB /* physiology.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478F1282158AB002DDEBB /* physiology.swift */; };
+		2D4478F5282158AB002DDEBB /* Body.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478F1282158AB002DDEBB /* Body.swift */; };
 		2D4478F728215933002DDEBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478F628215933002DDEBB /* ContentView.swift */; };
 		2D4478F928215972002DDEBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4478F828215972002DDEBB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -47,11 +47,11 @@
 		2D4478D928215887002DDEBB /* Sub-Health-TerminatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sub-Health-TerminatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4478DD28215887002DDEBB /* Sub_Health_TerminatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sub_Health_TerminatorUITests.swift; sourceTree = "<group>"; };
 		2D4478DF28215887002DDEBB /* Sub_Health_TerminatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sub_Health_TerminatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2D4478EC28215899002DDEBB /* mine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mine.swift; sourceTree = "<group>"; };
-		2D4478EE282158AB002DDEBB /* mall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mall.swift; sourceTree = "<group>"; };
-		2D4478EF282158AB002DDEBB /* dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dynamic.swift; sourceTree = "<group>"; };
+		2D4478EC28215899002DDEBB /* Mine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mine.swift; sourceTree = "<group>"; };
+		2D4478EE282158AB002DDEBB /* Market.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		2D4478EF282158AB002DDEBB /* Friends.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
 		2D4478F0282158AB002DDEBB /* psychological.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = psychological.swift; sourceTree = "<group>"; };
-		2D4478F1282158AB002DDEBB /* physiology.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = physiology.swift; sourceTree = "<group>"; };
+		2D4478F1282158AB002DDEBB /* Body.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Body.swift; sourceTree = "<group>"; };
 		2D4478F628215933002DDEBB /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D4478F828215972002DDEBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,10 +107,10 @@
 				2D4478C228215886002DDEBB /* Sub_Health_TerminatorApp.swift */,
 				2D4478F628215933002DDEBB /* ContentView.swift */,
 				2D4478F0282158AB002DDEBB /* psychological.swift */,
-				2D4478F1282158AB002DDEBB /* physiology.swift */,
-				2D4478EF282158AB002DDEBB /* dynamic.swift */,
-				2D4478EE282158AB002DDEBB /* mall.swift */,
-				2D4478EC28215899002DDEBB /* mine.swift */,
+				2D4478F1282158AB002DDEBB /* Body.swift */,
+				2D4478EF282158AB002DDEBB /* Friends.swift */,
+				2D4478EE282158AB002DDEBB /* Market.swift */,
+				2D4478EC28215899002DDEBB /* Mine.swift */,
 				2D4478F828215972002DDEBB /* Assets.xcassets */,
 				2D4478C828215887002DDEBB /* Preview Content */,
 			);
@@ -272,12 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D4478ED28215899002DDEBB /* mine.swift in Sources */,
-				2D4478F3282158AB002DDEBB /* dynamic.swift in Sources */,
+				2D4478ED28215899002DDEBB /* Mine.swift in Sources */,
+				2D4478F3282158AB002DDEBB /* Friends.swift in Sources */,
 				2D4478F728215933002DDEBB /* ContentView.swift in Sources */,
 				2D4478C328215886002DDEBB /* Sub_Health_TerminatorApp.swift in Sources */,
-				2D4478F5282158AB002DDEBB /* physiology.swift in Sources */,
-				2D4478F2282158AB002DDEBB /* mall.swift in Sources */,
+				2D4478F5282158AB002DDEBB /* Body.swift in Sources */,
+				2D4478F2282158AB002DDEBB /* Market.swift in Sources */,
 				2D4478F4282158AB002DDEBB /* psychological.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,7 +453,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -481,7 +481,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

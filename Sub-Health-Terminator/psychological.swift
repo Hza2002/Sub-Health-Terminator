@@ -1,9 +1,14 @@
 import SwiftUI
 
-struct psychological: View {
+struct Mental: View {
     var body: some View{
-        Text("psychological")
+        Text("Mental")
     }
 }
 
+struct Mental_Previews: PreviewProvider {
+    static var previews: some View {
+        Mental()
+    }
+}
 

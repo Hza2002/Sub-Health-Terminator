@@ -3,27 +3,27 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            psychological()
+            Mental()
                 .tabItem {
                     Label("心理", systemImage: "heart.circle")
                     Text("心理")
                 }
-            physiology()
+            Body()
                 .tabItem {
                     Label("生理", systemImage: "figure.walk.circle")
                     Text("生理")
                 }
-            dynamic()
+            Friends()
                 .tabItem {
                     Label("动态", systemImage: "staroflife.circle")
                     Text("动态")
                 }
-            mall()
+            Market()
                 .tabItem {
                     Label("商城", systemImage: "bag.circle")
                     Text("商城")
                 }
-            mine()
+            Mine()
                 .tabItem {
                     Label("我的", systemImage: "person.circle")
                     Text("我的")
