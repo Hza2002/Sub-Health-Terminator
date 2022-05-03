@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		2D4478C328215886002DDEBB /* Sub_Health_TerminatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478C228215886002DDEBB /* Sub_Health_TerminatorApp.swift */; };
-		2D4478C528215886002DDEBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478C428215886002DDEBB /* ContentView.swift */; };
-		2D4478C728215887002DDEBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4478C628215887002DDEBB /* Assets.xcassets */; };
 		2D4478CA28215887002DDEBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4478C928215887002DDEBB /* Preview Assets.xcassets */; };
 		2D4478D428215887002DDEBB /* Sub_Health_TerminatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478D328215887002DDEBB /* Sub_Health_TerminatorTests.swift */; };
 		2D4478DE28215887002DDEBB /* Sub_Health_TerminatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478DD28215887002DDEBB /* Sub_Health_TerminatorUITests.swift */; };
 		2D4478E028215887002DDEBB /* Sub_Health_TerminatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478DF28215887002DDEBB /* Sub_Health_TerminatorUITestsLaunchTests.swift */; };
+		2D4478ED28215899002DDEBB /* mine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478EC28215899002DDEBB /* mine.swift */; };
+		2D4478F2282158AB002DDEBB /* mall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478EE282158AB002DDEBB /* mall.swift */; };
+		2D4478F3282158AB002DDEBB /* dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478EF282158AB002DDEBB /* dynamic.swift */; };
+		2D4478F4282158AB002DDEBB /* psychological.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478F0282158AB002DDEBB /* psychological.swift */; };
+		2D4478F5282158AB002DDEBB /* physiology.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478F1282158AB002DDEBB /* physiology.swift */; };
+		2D4478F728215933002DDEBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4478F628215933002DDEBB /* ContentView.swift */; };
+		2D4478F928215972002DDEBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4478F828215972002DDEBB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +41,19 @@
 /* Begin PBXFileReference section */
 		2D4478BF28215886002DDEBB /* Sub-Health-Terminator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sub-Health-Terminator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4478C228215886002DDEBB /* Sub_Health_TerminatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sub_Health_TerminatorApp.swift; sourceTree = "<group>"; };
-		2D4478C428215886002DDEBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2D4478C628215887002DDEBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D4478C928215887002DDEBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D4478CF28215887002DDEBB /* Sub-Health-TerminatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sub-Health-TerminatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4478D328215887002DDEBB /* Sub_Health_TerminatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sub_Health_TerminatorTests.swift; sourceTree = "<group>"; };
 		2D4478D928215887002DDEBB /* Sub-Health-TerminatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sub-Health-TerminatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4478DD28215887002DDEBB /* Sub_Health_TerminatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sub_Health_TerminatorUITests.swift; sourceTree = "<group>"; };
 		2D4478DF28215887002DDEBB /* Sub_Health_TerminatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sub_Health_TerminatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2D4478EC28215899002DDEBB /* mine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mine.swift; sourceTree = "<group>"; };
+		2D4478EE282158AB002DDEBB /* mall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mall.swift; sourceTree = "<group>"; };
+		2D4478EF282158AB002DDEBB /* dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dynamic.swift; sourceTree = "<group>"; };
+		2D4478F0282158AB002DDEBB /* psychological.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = psychological.swift; sourceTree = "<group>"; };
+		2D4478F1282158AB002DDEBB /* physiology.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = physiology.swift; sourceTree = "<group>"; };
+		2D4478F628215933002DDEBB /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D4478F828215972002DDEBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +105,13 @@
 			isa = PBXGroup;
 			children = (
 				2D4478C228215886002DDEBB /* Sub_Health_TerminatorApp.swift */,
-				2D4478C428215886002DDEBB /* ContentView.swift */,
-				2D4478C628215887002DDEBB /* Assets.xcassets */,
+				2D4478F628215933002DDEBB /* ContentView.swift */,
+				2D4478F0282158AB002DDEBB /* psychological.swift */,
+				2D4478F1282158AB002DDEBB /* physiology.swift */,
+				2D4478EF282158AB002DDEBB /* dynamic.swift */,
+				2D4478EE282158AB002DDEBB /* mall.swift */,
+				2D4478EC28215899002DDEBB /* mine.swift */,
+				2D4478F828215972002DDEBB /* Assets.xcassets */,
 				2D4478C828215887002DDEBB /* Preview Content */,
 			);
 			path = "Sub-Health-Terminator";
@@ -231,8 +246,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D4478F928215972002DDEBB /* Assets.xcassets in Resources */,
 				2D4478CA28215887002DDEBB /* Preview Assets.xcassets in Resources */,
-				2D4478C728215887002DDEBB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D4478C528215886002DDEBB /* ContentView.swift in Sources */,
+				2D4478ED28215899002DDEBB /* mine.swift in Sources */,
+				2D4478F3282158AB002DDEBB /* dynamic.swift in Sources */,
+				2D4478F728215933002DDEBB /* ContentView.swift in Sources */,
 				2D4478C328215886002DDEBB /* Sub_Health_TerminatorApp.swift in Sources */,
+				2D4478F5282158AB002DDEBB /* physiology.swift in Sources */,
+				2D4478F2282158AB002DDEBB /* mall.swift in Sources */,
+				2D4478F4282158AB002DDEBB /* psychological.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
